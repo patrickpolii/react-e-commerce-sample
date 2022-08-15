@@ -1,4 +1,4 @@
-import image from "../images/several-fruit-vegetables-removebg-preview.png"
+
 function Home() {
     return (
         <section className="home" id="home">
@@ -16,11 +16,12 @@ function Home() {
         </div>
         <div className="image">
           <img
-            src={image}
+            src="./images/several-fruit-vegetables-removebg-preview.png"
             alt=""
           />
         </div>
       </section>
+      
     );
   }
   

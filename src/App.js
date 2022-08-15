@@ -1,7 +1,10 @@
 import "./App.css";
 import Header from "./components/Header"
 import Home from "./components/Home"
-import Card from "./components/Card"
+import Services from "components/Services";
+
+import About from "components/About";
+import Contact from "components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,8 +12,11 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
-      <Card/>
-     <Footer/>
+      <Services/>
+     
+      <About/>
+      <Contact/>   
+      <Footer/>
 
       <div className="scroll-top">
         <img src="./images/arrow-up-outline.svg" alt="" />
